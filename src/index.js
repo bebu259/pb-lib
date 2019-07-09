@@ -1,10 +1,1 @@
-const defaultAwesomeFunction = (name) => {
-  const returnStr = `I am the Default Awesome Function, fellow comrade! - ${name}`;
-  return returnStr;
-};
-
-const awesomeFunction = () => 'I am just an Awesome Function';
-
-export default defaultAwesomeFunction;
-
-export { awesomeFunction };
+export const centToEur = (value, digits = 2) => `${(value * 0.01).toFixed(digits)} €`;
